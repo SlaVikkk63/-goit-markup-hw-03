@@ -18,6 +18,8 @@ padding-left: 0;
 
 img{
     display: block;
+    max-width:100%; 
+    height:auto; 
 }
 
 :root{
@@ -174,7 +176,7 @@ body{
     display: flex;
     align-items: center;
     gap: 30px;
-    margin-top: 50px;
+    
 }
 
 .section-name{
@@ -198,6 +200,7 @@ body{
     line-height: 1.16; 
     display: block;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .section-doing-picture{
@@ -205,9 +208,6 @@ body{
     display: flex;
     align-items: center;
     gap: 30px;
-    margin-top: 50px;
-    max-width:100%; 
-    height: auto;
 }
 
 .section-team{
@@ -281,11 +281,6 @@ body{
 }
 
 .section{
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
     color: var(--main-text);
     padding: 94px 15px ;
     
@@ -307,7 +302,7 @@ button{
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--main-text);
-    padding-bottom: 4px;
+    margin-bottom: 4px;
 }
 
 .section-title-portfolio{
@@ -328,7 +323,6 @@ button{
     display: flex;
     gap: 8px;
     margin-bottom: 56px;
-    margin-top: 50px;
     justify-content: center; 
 }
 
@@ -342,8 +336,8 @@ button{
 }
 
 .section-teams{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .section-corporate-team{
@@ -353,15 +347,23 @@ button{
 }
 
 .section-portfolios{
-    margin-top: 94px;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .portfolio-card{
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     padding: 20px 24px;
+    border-top: none;
 
 }
 
-
+.section-team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
