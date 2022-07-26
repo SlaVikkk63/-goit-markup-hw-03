@@ -87,9 +87,22 @@ body{
     letter-spacing: 0.02em;
 }
 
+.navigation-header{
+    color: var(--main-text);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
 .navigation:hover,
 .navigation:focus{
     color: #2196F3;
+}
+
+.navigation-header:hover,
+.navigation-header:focus{
+    color: #2196F3
 }
 
 .header-connect{
@@ -172,7 +185,7 @@ body{
 }
 
 .section-corporate{
-    margin-right: 30px;
+    
     display: flex;
     align-items: center;
     gap: 30px;
